@@ -3,20 +3,20 @@
 
 # Purpose
 
-A scheduler to help you manage your day!
+* A scheduler to help you manage your day!
 
 
 # Built With
 
-HTML
+* HTML
 
-CSS
+* CSS
 
-JAVASCRIPT
+* JAVASCRIPT
 
-JQUERY
+* JQUERY
 
-MOMENT JS
+* MOMENT JS
 
 # Demo
 
@@ -25,7 +25,12 @@ MOMENT JS
 
 # Website
 
+* https://jaredlove.github.io/Work-Day-Scheduler/
 
+
+# Contribution
+
+* Made with ❤️ by Jared Love
 
 
 
