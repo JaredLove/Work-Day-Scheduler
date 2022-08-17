@@ -57,3 +57,24 @@ function timep() {
     var i5 = JSON.parse(localStorage.getItem("5:00 pm"))
     five.val(i5);
   } 
+
+
+  //function for the background of the text area to show current time
+function back () {
+      
+    $(".form-control").each(function () {
+        var timeTest = parseInt($(this).attr("id"));
+        hours = parseInt(hours);
+        console.log(timeTest);
+        console.log(hour);
+  
+      //adds a class depending on if its in the past, present, or future time
+        if (hours > timeTest) {
+            $(this).addClass("past");
+        } else if (hours < timeTest) {
+            $(this).addClass("future");
+        } else {
+            $(this).addClass("present");
+        }
+    });
+  }
