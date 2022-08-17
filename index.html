@@ -18,21 +18,95 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
   <body>
+    <!--Header-->
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
+      <!--Shows Day and time-->
       <p id="currentDay" class="lead"></p>
     </header>
-    <div class="container">
+    <div class="time-block">
       <!-- Timeblocks go here -->
+      <div class="row row-cols-3 border">
+       
+        <div class="hour col"><br><br>9:00 am</div>
+        <!--Area to hold input-->
+        <textarea class="form-control col-9 " id="9am"></textarea>
+      <!--Button to save input-->
+        <button class="saveBtn col"><i class="fas fa-save"></i></button>
+      </div>
+      <div class="row row-cols-3 border">
+      <div class="hour col"><br><br>10:00 am</div>
+      <!--Area to hold input-->
+      <textarea class="form-control col-9" id="10am"></textarea>
+       <!--Button to save input-->
+      <button class="saveBtn col"><i class="fas fa-save"></i></button>
+      </div>
+      <div class="row row-cols-3 border">
+        
+        <div class="hour col"><br><br>11:00 am</div>
+        <!--Area to hold input-->
+        <textarea class="form-control col-9" id="11am"></textarea>
+         <!--Button to save input-->
+        <button class="saveBtn col"><i class="fas fa-save"></i></button>
+      </div>
+      <div class="row row-cols-3 border">
+       
+        <div class="hour col"><br><br>12:00 am</div>
+        <!--Area to hold input-->
+        <textarea class="form-control col-9" id="12pm"></textarea>
+         <!--Button to save input-->
+        <button class="saveBtn col"><i class="fas fa-save"></i></button>
+      </div>
+      <div class="row row-cols-3 border">
+       
+        <div class="hour col"><br><br>1:00 pm</div>
+        <!--Area to hold input-->
+        <textarea class="form-control col-9" id="13pm" ></textarea>
+         <!--Button to save input-->
+        <button class="saveBtn col"><i class="fas fa-save"></i></button>
+      </div>
+      <div class="row row-cols-3 border">
+       
+        <div class="hour col"><br><br>2:00 pm</div>
+        <!--Area to hold input-->
+        <textarea class="form-control col-9" id="14pm"></textarea>
+         <!--Button to save input-->
+        <button class="saveBtn col"><i class="fas fa-save"></i></button>
+      </div>
+      <div class="row row-cols-3 border">
+       
+        <div class="hour col"><br><br>3:00 pm</div>
+        <!--Area to hold input-->
+        <textarea class="form-control col-9" id="15pm"></textarea>
+         <!--Button to save input-->
+        <button class="saveBtn col"><i class="fas fa-save"></i></button>
+      </div>
+      <div class="row row-cols-3 border">
+     
+        <div class="hour col"><br><br>4:00 pm</div>
+        <!--Area to hold input-->
+        <textarea class="form-control col-9" id="16pm"></textarea>
+         <!--Button to save input-->
+        <button class="saveBtn col"><i class="fas fa-save"></i></button>
+      </div>
+      <div class="row row-cols-3 border">
+    
+        <div class="hour col"><br><br>5:00 pm</div>
+        <!--Area to hold input-->
+        <textarea class="form-control col-9" id="17pm"></textarea>
+         <!--Button to save input-->
+        <button class="saveBtn col"><i class="fas fa-save"></i></button>
+      </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>
