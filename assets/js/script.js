@@ -78,3 +78,19 @@ function back () {
         }
     });
   }
+
+
+  $(document).ready(function(){
+    timep()
+    back()
+
+  // Save to local storage
+  $(".saveBtn").on("click", function(){
+    input = $(this).siblings(".form-control").val().trim();
+    hourt = $(this).siblings(".hour").text().trim();
+    console.log(hourt);
+    localStorage.setItem(hourt, JSON.stringify(input));
+
+  })
+
+});
