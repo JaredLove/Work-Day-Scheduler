@@ -25,3 +25,35 @@ var interval = setInterval(function() {
                        .substring(0,3).toUpperCase());
   $('#currentDay').html(date + " " + time.format('hh:mm:ss A'));
 }, 100);
+
+
+//function to get time from local storage
+function timep() {
+
+    var i9 = JSON.parse(localStorage.getItem("9:00 am"));
+    nine.val(i9);
+  
+    var i10 = JSON.parse(localStorage.getItem("10:00 am"))
+    ten.val(i10);
+    
+    var i11 = JSON.parse(localStorage.getItem("11:00 am"))
+    eleven.val(i11);
+    
+    var i12 = JSON.parse(localStorage.getItem("12:00 pm"))
+    twelve.val(i12);
+    
+    var i1 = JSON.parse(localStorage.getItem("1:00 pm"))
+    one.val(i1);
+    
+    var i2 = JSON.parse(localStorage.getItem("2:00 pm"))
+    two.val(i2);
+    
+    var i3 = JSON.parse(localStorage.getItem("3:00 pm"))
+    three.val(i3);
+   
+    var i4 = JSON.parse(localStorage.getItem("4:00 pm"))
+    four.val(i4);
+    
+    var i5 = JSON.parse(localStorage.getItem("5:00 pm"))
+    five.val(i5);
+  } 
