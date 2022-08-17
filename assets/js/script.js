@@ -80,9 +80,8 @@ function back () {
   }
 
 
-  $(document).ready(function(){
-    timep()
-    back()
+ 
+    
 
   // Save to local storage
   $(".saveBtn").on("click", function(){
@@ -93,4 +92,5 @@ function back () {
 
   })
 
-});
+timep()
+    back()
